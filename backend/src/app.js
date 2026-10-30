@@ -6,7 +6,7 @@ export function createServer() {
   app.use(express.json());
 
   app.get("/", (req, res) => {
-    res.send("Hello, World!");
+    res.send("Hello, World! something went wrong");
   });
 
   return app;
